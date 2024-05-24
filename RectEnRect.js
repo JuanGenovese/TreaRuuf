@@ -2,11 +2,11 @@ const RectEnRect = (a, b, y, x) => {
     let rectangulosTotales = 0
 
     let panelesEnBase = (x / b)
-    let panelesEnAltura =(y / a)
+    let panelesEnAltura =(y / a) 
 
     if (panelesEnBase >= 1 && panelesEnAltura >= 1) {
 
-       rectangulosTotales = Math.floor(panelesEnBase * panelesEnAltura) 
+       rectangulosTotales = Math.floor(panelesEnBase * panelesEnAltura)
        return rectangulosTotales
        
     } 
