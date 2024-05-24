@@ -1,12 +1,12 @@
 const RectEnRect = (a, b, y, x) => {
     let rectangulosTotales = 0
 
-    const base = (y / a)
-    const altura =(x / b)
+    let panelesEnBase = (x / b)
+    let panelesEnAltura =(y / a)
 
-    if (base >= 1 && altura >= 1) {
+    if (panelesEnBase >= 1 && panelesEnAltura >= 1) {
 
-       rectangulosTotales = Math.floor(base * altura) 
+       rectangulosTotales = Math.floor(panelesEnBase * panelesEnAltura) 
        return rectangulosTotales
        
     } 
@@ -18,3 +18,4 @@ const RectEnRect = (a, b, y, x) => {
 console.log(RectEnRect(1, 2, 2, 4))
 console.log(RectEnRect(1, 2, 3, 5))
 console.log(RectEnRect(2, 2, 1, 10))
+console.log(RectEnRect(2, 1, 3, 5))

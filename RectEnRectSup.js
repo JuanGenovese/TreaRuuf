@@ -23,3 +23,5 @@ const RectEnSup = (a, b, y, x, sX, sY) => {
 
 console.log(RectEnSup(2, 2, 4, 6, 1.5, 2.5))
 console.log(RectEnSup(1, 1.5, 4.5, 3.5, 1.5, 3.5))
+
+
